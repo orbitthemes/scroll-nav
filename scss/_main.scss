@@ -1,0 +1,29 @@
+/*
+Theme Name: Scroll Nav
+Theme URI: https://www.orbitthemes.com
+Author: Sandeep Prasad Bhatt
+Author URI: http://www.sandeepbhatt.com.np
+Description: Scroll Nav - Beautiful Smooth Scrolling
+Create date: April 10, 2018
+Version: 1.0
+License: Commercial, All rights reserved - orbitthemes.com
+Tags: Responsive Bootstrap 4 template , bootstrap 4 starter template, bootstrap4 template, simple template
+Text Domain: orbitthemes.com
+*/
+
+#main {
+    background: $white;
+    .main-banner {
+        padding: 10rem 0;
+        background: #5C258D;
+        color: $white;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4389A2, #5C258D);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4389A2, #5C258D);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        p {
+            font-size: 2rem;
+        }
+    }
+}

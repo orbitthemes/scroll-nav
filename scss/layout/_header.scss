@@ -1,0 +1,15 @@
+#header {
+    .navbar-toggler {
+        outline: none;
+    }
+    #navbarNav {
+        .nav-item {
+            .nav-link {
+                &.active {
+                    font-weight: 700;
+                    color: $primary !important;
+                }
+            }
+        }
+    }
+}
